@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#02241F</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroundColor">#D7EEED</color>
+    <color name="textColor">#002F55</color>
+    <color name="DMTextColor">#DCEBE8</color>
+    <color name="importantBackground">#E0881C</color>
+</resources>

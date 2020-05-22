@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/EditTextFilterDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="@string/byDate"
+        android:textSize="20sp"
+        android:textColor="#002F55"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/EditTextFilterTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/EditTextFilterDate"
+        android:hint="@string/byTime"
+        android:textSize="20sp"
+        android:textColor="#002F55"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/ButtonFilterImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/EditTextFilterTime"
+        android:text="@string/important"
+        android:checked="false"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="#881386"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

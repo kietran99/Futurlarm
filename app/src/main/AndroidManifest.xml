@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.se68.rraptor.futurlarm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FuturlarmList.FuturlarmDetailActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".FuturlarmList.FuturlarmDetailActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FuturlarmSocial.UserProfileActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".FuturlarmSocial.UserProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FuturlarmAchievement.AchievementActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".FuturlarmAchievement.AchievementActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FuturlarmNew.NewFuturlarmActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".FuturlarmNew.NewFuturlarmActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FuturlarmList.FuturlarmManagerActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".FuturlarmList.FuturlarmManagerActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Templates.TemplateActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".TemplateActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".SignUpActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".WelcomeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

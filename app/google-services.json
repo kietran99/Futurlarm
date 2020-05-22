@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766889184856",
+    "firebase_url": "https://futurlarm.firebaseio.com",
+    "project_id": "futurlarm",
+    "storage_bucket": "futurlarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766889184856:android:6b2783d3c5550c1f",
+        "android_client_info": {
+          "package_name": "com.se68.rraptor.futurlarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766889184856-7vcn8tnfhp567mru9eas2g02jii374nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.se68.rraptor.futurlarm",
+            "certificate_hash": "bcf60925e5939575fe26d6a30924593848e29319"
+          }
+        },
+        {
+          "client_id": "766889184856-1ffku2kn85ftc025jc9hv1atfr5t8t35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSfHOa99IWeOb6Iz6djjBKvVs83N4_iOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766889184856-1ffku2kn85ftc025jc9hv1atfr5t8t35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

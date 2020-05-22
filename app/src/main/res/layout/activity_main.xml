@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LayoutMain"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#D7EEED"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ImageViewAvatar"
+            android:layout_width="180dp"
+            android:layout_height="240dp"
+            android:textAlignment="center"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/EditTextEmail"
+        android:layout_width="260dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/user_icon" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/EditTextPassword"
+        android:layout_width="260dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/password_icon" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/ButtonForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="90dp"
+        android:text="@string/forgotPassword"
+        android:textStyle="bold"
+        android:textColor="#025C77"
+        android:textSize="12sp"/>
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <CheckBox
+            android:id="@+id/CheckBoxRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:text="@string/rememberMe"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/ButtonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="65dp"
+            android:textAllCaps="true"
+            android:background="@drawable/yellow_rounded_corner_button"
+            android:text="@string/signIn"
+            android:textColor="#002F55"
+            android:textStyle="bold"/>
+
+        <ProgressBar
+            android:id="@+id/ProgressBarLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_toEndOf="@id/ButtonLogin"
+            android:layout_toStartOf="@id/ButtonSignUp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <Button
+            android:id="@+id/ButtonSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="65dp"
+            android:textAllCaps="true"
+            android:background="@drawable/light_green_rounded_corner_button"
+            android:text="@string/signUp"
+            android:textColor="#002F55"
+            android:textStyle="bold"/>
+
+        <Switch
+            android:id="@+id/SwitchDarkMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:text="@string/darkMode"
+            android:textAllCaps="true"
+            android:textColor="#002F55"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

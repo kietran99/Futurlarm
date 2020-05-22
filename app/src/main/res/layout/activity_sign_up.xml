@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LayoutSignUp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7EEED"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/ImageViewNewAvatar"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/ButtonChooseNewAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ImageViewNewAvatar"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/light_purple_rounded_corner_button"
+            android:text="@string/chooseImage"
+            android:textAllCaps="true"
+            android:textColor="#002F55"
+            android:textStyle="bold"/>
+
+        <ProgressBar
+            android:id="@+id/ProgressBarCreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/ButtonChooseNewAvatar"
+            android:layout_below="@id/ImageViewNewAvatar"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/email"
+        android:textColor="#002F55"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/EditTextUsername"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/username"
+        android:textColor="#002F55"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/EditTextPassword"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/password"
+        android:textColor="#002F55"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/EditTextVerify"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/verifyPassword"
+        android:textColor="#002F55"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/ButtonCreateAccount"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:background="@drawable/light_blue_rounded_corner_button"
+                android:text="@string/createAccount"
+                android:textSize="15sp"
+                android:textColor="#002F55"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/ButtonCancelSignUp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/yellow_rounded_corner_button"
+                style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:text="@string/cancel"
+                android:textSize="15sp"
+                android:textColor="#002F55"
+                android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

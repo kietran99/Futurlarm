@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Futurlarm</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgotPassword">forgot password?</string>
+    <string name="rememberMe">remember me</string>
+    <string name="signIn">Sign In</string>
+    <string name="darkMode">dark mode</string>
+    <string name="welcomeBack">welcome back</string>
+    <string name="createNewAccount">create new account</string>
+    <string name="email">Email</string>
+    <string name="verifyPassword">Verify Password</string>
+    <string name="createAccount">Create Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="signUp">sign up</string>
+    <string name="chooseImage">Choose Image</string>
+    <string name="accountSettings">Account Settings</string>
+    <string name="signOut">Sign out</string>
+    <string name="byDate">By Date</string>
+    <string name="byTime">By Hour</string>
+    <string name="important">important</string>
+    <string name="removeFilter">Remove Filter</string>
+    <string name="futurlarmDetails">futurlarm details</string>
+    <string name="name">name</string>
+    <string name="sender">sender</string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+    <string name="type">type</string>
+    <string name="apply">apply</string>
+    <string name="back">back</string>
+</resources>
